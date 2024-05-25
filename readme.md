@@ -23,7 +23,7 @@ To get a local copy up and running, follow these steps:
 1. **Clone the repository:**
 
   ```bash
-  git clone https://github.com/your-username/my-portfolio.git
+  git clone https://github.com/BigAbe97/eleventy-portfolio-abe.git
   cd my-portfolio
   ```
 
@@ -50,3 +50,4 @@ To customize the content, modify the files in the src directory:
   - HTML Files: Located in src/ directory. Edit index.html to change the main content.
   - CSS Files: Located in src/css/ directory. Modify styles.css to update styles.
   - Images: Place your images in the src/img/ directory.
+

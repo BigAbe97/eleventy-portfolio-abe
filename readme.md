@@ -25,6 +25,7 @@ To get a local copy up and running, follow these steps:
   ```bash
   git clone https://github.com/your-username/my-portfolio.git
   cd my-portfolio
+  ```
 
 2. **Install dependencies:**
 
@@ -32,11 +33,13 @@ Ensure you have Node.js installed, then run:
 
   ```bash
   npm install
+  ```
 
 3. **Run Eleventy:**
 
   ```bash
   npx eleventy --serve
+  ```
 
 Your site should now be running at http://localhost:8080.
 

@@ -1,39 +1,49 @@
 # My Portfolio
 
-Welcome to my portfolio website! This project is built using [Eleventy](https://www.11ty.dev/), a simple static site generator, and is hosted on [GitHub Pages](https://pages.github.com/). The site features modern and futuristic animations from [Aceternity UI](https://aceternityui.com/).
+Welcome to my portfolio website! This site is built using Eleventy (11ty), a flexible static site generator, and is hosted on GitHub Pages. The design includes modern and futuristic animations from Aceternity UI.
 
 ## Table of Contents
 
 - [My Portfolio](#my-portfolio)
   - [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
   - [Features](#features)
   - [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Clone the Repository](#clone-the-repository)
-
-## Demo
-
-Check out the live demo of my portfolio [here](https://your-username.github.io/my-portfolio).
+  - [Usage](#usage)
 
 ## Features
 
-- Static site generated with Eleventy
-- Modern and futuristic animations using Aceternity UI
-- Responsive design
-- Hosted on GitHub Pages
-- Automated deployment with GitHub Actions
+- **Static Site Generation**: Built with Eleventy for fast and flexible static site generation.
+- **Modern Animations**: Enhanced with animations from Aceternity UI for a modern and futuristic feel.
+- **Free Hosting**: Deployed on GitHub Pages for free and easy hosting.
 
 ## Installation
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
 
-### Prerequisites
+1. **Clone the repository:**
 
-Ensure you have Node.js and npm installed. You can download them from [nodejs.org](https://nodejs.org/).
+  ```bash
+  git clone https://github.com/your-username/my-portfolio.git
+  cd my-portfolio
 
-### Clone the Repository
+2. **Install dependencies:**
 
-```bash
-git clone https://github.com/your-username/my-portfolio.git
-cd my-portfolio
+Ensure you have Node.js installed, then run:
+
+  ```bash
+  npm install
+
+3. **Run Eleventy:**
+
+  ```bash
+  npx eleventy --serve
+
+Your site should now be running at http://localhost:8080.
+
+## Usage
+
+To customize the content, modify the files in the src directory:
+
+  - HTML Files: Located in src/ directory. Edit index.html to change the main content.
+  - CSS Files: Located in src/css/ directory. Modify styles.css to update styles.
+  - Images: Place your images in the src/img/ directory.
